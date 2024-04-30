@@ -37,6 +37,8 @@ p.treci
     text-align: right;
     border-style: inset;
     border-width: thick;
+    padding: 15px
     border-color: green;
+    
     
 }
