@@ -52,3 +52,42 @@ img.desna
     float:right; 
     
 }
+
+
+ul li a, ul li a: visited{
+    display: block;
+    text-decoration: none;
+    margin: 1px;
+    padding: 2px 0px 2px 5px;
+    width: 100px;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-left-color: blue;
+}
+ul ul li a, ul ul li a: visited{
+    display: block;
+    text-decoration: none;
+    margin: 1px 1px 1px 15px;
+    padding: 2px 0px 2px 5px;
+    width: 108px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: blue;
+}
+ul li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: blue;
+    text-style: bold;
+}
+ul li a: hover{
+    text-decoration: none;
+    border-left-color: #ccf;
+    background-color: pink;
+}
+ul ul li a:hover{
+    text-decoration: none;
+    border-left-color: #ccf;
+    background-color: pink;
+}
